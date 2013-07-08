@@ -90,8 +90,8 @@ module.exports = function(grunt) {
         deploy: {
             staging: {
                 src: "./",
-                dest: "~/path/to/theme",
-                host: "user@host.com",
+                dest: "~/webapps/sff/current/wp/wp-content/themes/sff",
+                host: "cheung31@localhost",
                 recursive: true,
                 syncDest: true,
                 exclude: ['.git*', 'node_modules', '.sass-cache', 'Gruntfile.js', 'package.json', '.DS_Store', 'README.md', 'config.rb', '.jshintrc']
