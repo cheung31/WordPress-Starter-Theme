@@ -1,0 +1,9 @@
+{
+    "name": "cheung31/chameleon-theme",
+    "description": "A Wordpress Theme",
+    "type": "wordpress-theme",
+    "version": "0.0.1",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
